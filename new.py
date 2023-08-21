@@ -57,9 +57,7 @@ def plots():
   plt.xlabel('Reynolds number')
   plt.ylabel('Friction factor')
   plt.title('Friction factor vs Reynolds Number')
-  data = image.imread('Moodychart.png')
   plt.plot(x, y, marker='o', color="red")
-  plt.imshow(data)
   plt.show()
 
 def Author():
