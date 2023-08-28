@@ -105,7 +105,7 @@ def plots():
         continue
     Re_trans.append(Re_tran)
     f_values.append(1.011*f_T(r))
-ax.plot(Re_trans, f_values, color=transition_line_color, ls='-.')
+ ax.plot(Re_trans, f_values, color=transition_line_color, ls='-.')
 
 # noinspection PyTypeChecker
  ax.fill(Re_trans + [4500, 4500, max(Re_trans)], f_values + [max(f_values), 0.007, 0.007],
