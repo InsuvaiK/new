@@ -151,13 +151,13 @@ if save_pdf:
     fig.savefig('vertical_moody_chart.pdf')
     fig.set_size_inches(11, 8.5)
     fig.savefig('horizontal_moody_chart.pdf')
-  x = Reynolds_number
-  y = Friction_factor
-  plt.xlabel('Reynolds number')
-  plt.ylabel('Friction factor')
-  plt.title('Friction factor vs Reynolds Number')
-  plt.plot(x, y, marker='o', color="red")
-  plt.show()
+    x = Reynolds_number
+    y = Friction_factor
+    plt.xlabel('Reynolds number')
+    plt.ylabel('Friction factor')
+    plt.title('Friction factor vs Reynolds Number')
+    plt.plot(x, y, marker='o', color="red")
+    plt.show()
 
 def Author():
   st.title('About the author')
