@@ -54,7 +54,6 @@ def Calculation():
   st.success(f"The Friction factor of the flow is {Friction_factor}")
 
 def plots():
-  save_pdf = True
 laminar_line_color = 'maroon'
 relative_roughness_color = 'black'
 interval_arrows_color = 'deepskyblue'
