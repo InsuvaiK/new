@@ -148,6 +148,7 @@ def plots():
  fig.savefig('vertical_moody_chart.pdf')
  fig.set_size_inches(11, 8.5)
  fig.savefig('horizontal_moody_chart.pdf')
+ ax.show()
  x = Reynolds_number
  y = Friction_factor
  plt.xlabel('Reynolds number')
